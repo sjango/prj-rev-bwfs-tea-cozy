@@ -1,0 +1,159 @@
+/*
+
+* {
+	border: 1px dotted white;
+}
+
+*/
+
+body {
+	background-color: black;
+	color: seashell;
+	font-family: Helvetica;
+	font-size: 22px;
+	opacity: 0.9;
+	text-align: center;
+}
+
+h2, h3, h4 {
+	padding: 10px;
+}
+
+
+/* header styling */
+
+header {
+	display: flex;
+	height: 69px;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+	background-color: black;
+	justify-content: space-between;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+}
+
+.logo {
+	display: inline-flex;
+	align-items: center;
+	padding-left: 10px;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.header-nav {
+	display: inline-flex;
+	align-items: center;
+	padding-right: 10px;
+}
+
+.header-nav span {
+	padding: 10px;
+}
+
+.header-nav a {
+	color: seashell;
+	text-decoration: underline;
+}
+
+/* main container styling */
+
+.content {
+	display: block;
+	padding-top: 69px;
+}
+
+/* mission */
+
+#mission {
+	background-image: url(../images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.mission-text {
+	background-color: black;
+}
+
+/* featured */
+
+#featured {
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.pic-row {
+	display: flex;
+	justify-content: center;
+}
+
+.pic-container {
+	margin: 0 25px;
+}
+.pic-container img {
+	width: 300px;
+	height: 200px;
+}
+
+.pic-container h4 {
+	margin-top: 10px;
+}
+
+/*locations*/
+
+#locations {
+	background-image: url(../images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.locations-text {
+	margin-bottom: 15px;
+}
+
+.adress-container {
+	display: flex;
+	justify-content: center;
+	margin-top: 0;
+}
+
+.adress {
+	background-color: black;
+	width: 300px; 
+	margin: 0px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.adress span,
+
+.adress h3
+ {
+	padding: 20px 0;
+	margin: 0;
+}
+
+/*footer*/
+
+.contact {
+	height: 200px;
+}
+.copyright {
+	padding-left: 20px;
+	text-align: left;
+}
+
+
